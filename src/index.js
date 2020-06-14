@@ -17,4 +17,4 @@ function loop() {
     new MetadataDownloader(api, process.env.TWITCH_USERNAME).run();
 }
 loop();
-setInterval(loop, 5000);
+setInterval(loop, process.env.LOOP_INTERVAL);
