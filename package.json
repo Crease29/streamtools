@@ -1,0 +1,12 @@
+{
+  "name": "streamtools",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twitch-api-v5": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}

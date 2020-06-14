@@ -1,2 +1,8 @@
-# streamtools
-Collection of tiny tools which I need for OBS Studio on Linux
+# Streamtools
+Collection of tiny tools which I need for OBS Studio on Linux.
+
+## Installation
+1. Run `npm install`
+2. Run `cp .env.dist .env`
+3. Fill in the required config values in the .env file
+4. Run `npm start`
